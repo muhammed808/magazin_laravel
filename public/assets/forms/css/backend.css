@@ -1,0 +1,219 @@
+*{
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+@media (max-width: 575.98px){
+    h5{
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 2.4rem;
+    }
+    .titel-registor h4{
+        font-size: 22px;
+    }
+}
+@media (min-width: 1200px) {
+    h1{
+        font-size: 70px;
+    }
+ }
+/*start forms*/
+.login{
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    padding-bottom: 50px;
+    height: fit-content;
+    
+}
+@media (min-height: 650px)
+{
+    /* .login{
+        height: 31.2em;
+    } */
+    body{
+        background-repeat: no-repeat;
+    }
+}
+.edit{
+    max-width:600px;
+    background-color: #000;
+    margin-top: 20px;
+}
+.creat{
+    max-width: 600px;
+    padding-bottom: 10px;
+}
+.login .text-center{
+    transform: translatex(50%);
+    width: 50%;
+    color: #FFF;
+    margin-bottom: 20px;
+    
+}
+.login .text-center h4{
+    border-bottom: 5px solid #2ecc71;
+    text-align: center;
+    padding-bottom: 5px;   
+}
+.login .box{
+
+    border-bottom: 1px solid #2ecc71;
+}
+.login .upload-img{
+    height: 300px;
+    border: 1px dashed #2ecc71;
+    align-items: center;
+    text-align: center;
+}
+.login .upload-img .uploading-icon{
+    font-size: 115px;
+    cursor: pointer;
+    color: #007bff;
+    margin-top: 60px;
+}
+.display{
+    display: none;
+}
+.login i{
+    position: relative;
+    left: 5px;
+    top: 30px;
+    color:#FFF
+}
+.login i.fa-user-circle{
+    
+    color:rgba(225, 0 , 0,0.8);
+    position: relative;
+    left: 50%;
+    top: -10px;
+    transform: translate(-50%,-50%);
+}
+.login input{
+    padding-left: 25px;
+    
+}
+input.form-control{
+    background:none;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    padding-left: 30px;
+} 
+input.form-control:focus{
+    background: none;
+    outline: none;
+    border: none;
+    border-color: #000;
+    color:#FFF;
+    box-shadow:none ;
+}
+input.btn{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.custom-file-label{
+    background: none;
+    color:#007bff;
+    border: 1px solid #2ecc71;
+}
+.custom-file-label i.fa-folder-plus{
+    position: relative;
+    left: -8px;
+    top: 0px;
+}
+.custom-file-input{
+    cursor: pointer;
+    background: none;
+}
+
+/*end forms*/
+
+/* star bootstrap edits for navbar*/
+
+/* end bootstrap edits for navbar*/
+
+
+
+/*start a new account */
+.titel-registor{
+    color:#FFF;
+    overflow: hidden;
+    border-bottom: 1px solid #2ecc71;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.titel-registor h4{
+    float:left
+}
+.titel-registor i{
+    float: right;
+    position: relative;
+    top: 5px;
+    left: -15px;
+    
+}
+.alert-secondary{
+    width: fit-content;
+    height: fit-content;
+    background: none;
+    border:none;
+    color:#F00;
+    padding: 0; 
+    margin-bottom: 0;
+}
+.first-last-name{
+    overflow: hidden;
+}
+.first-last-name .first{
+    float:left;
+    width: 50%;
+}
+.first-last-name .last{
+    float:right;
+    width: 50%;
+}
+.alert-secondary .fa-exclamation-triangle:before{
+    right: 1px;
+    position: relative;
+    content: "\f071";
+    top: -31px;
+    margin-right: 2px;
+}
+.alert-secondary .fa-check-circle {
+    right: 1px;
+    position: relative;
+    content: "\f071";
+    top: 1px;
+    margin-right: 3px;
+}
+/*end a new account*/
+
+
+/*start home page*/
+
+/*end home page*/
+
+
+/*start memper pade*/
+
+/*end memper pade*/
+
+
+/*start categories*/
+
+/*end categories*/
+
+
+/*start items*/
+
+/*end items*/
